@@ -1,3 +1,14 @@
+This hubot hangs around at the #emberjs freenode IRC channel and sends the logs to the CouchDB located at http://emberjs-irs.iriscouch.com/irc-logs
+
+Hubot needs the following configuration to work like a charm:
+
+- heroku config:add HUBOT_IRC_NICK="emberjs-hubot"
+- heroku config:add HUBOT_IRC_ROOMS="#emberjs"
+- heroku config:add HUBOT_IRC_SERVER="irc.freenode.net"
+- heroku config:add HUBOT_COUCHDB_URL="http://USERNAME:PASSWORD@emberjs-irc.iriscouch.com:5984/irc-logs"
+
+---
+
 # Hubot
 
 This is a version of GitHub's Campfire bot, hubot. He's pretty cool.

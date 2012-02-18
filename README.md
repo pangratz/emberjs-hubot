@@ -2,10 +2,10 @@ This hubot hangs around at the #emberjs freenode IRC channel and sends the logs 
 
 Hubot needs the following configuration to work like a charm:
 
-- heroku config:add HUBOT_IRC_NICK="emberjs-hubot"
-- heroku config:add HUBOT_IRC_ROOMS="#emberjs"
-- heroku config:add HUBOT_IRC_SERVER="irc.freenode.net"
-- heroku config:add HUBOT_COUCHDB_URL="http://USERNAME:PASSWORD@emberjs-irc.iriscouch.com:5984/irc-logs"
+- `heroku config:add HUBOT_IRC_NICK="emberjs-hubot"`
+- `heroku config:add HUBOT_IRC_ROOMS="#emberjs"`
+- `heroku config:add HUBOT_IRC_SERVER="irc.freenode.net"`
+- `heroku config:add HUBOT_COUCHDB_URL="http://USERNAME:PASSWORD@emberjs-irc.iriscouch.com:5984/irc-logs"`
 
 If the hosting on Heroku has any problems, see alternative hosting at [joyent](http://www.arlocarreon.com/blog/git/githubs-hubot-on-joyents-no-de-smart-machines/)
 

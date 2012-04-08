@@ -1,4 +1,4 @@
-This hubot hangs around at the #emberjs freenode IRC channel and sends the logs to the CouchDB located at http://emberjs-irc.iriscouch.com/irc-logs
+This hubot hangs around at the #emberjs freenode IRC channel and sends the logs to the CouchDB located at http://emberjs.iriscouch.com/irc
 
 Hubot needs the following configuration to work like a charm:
 
